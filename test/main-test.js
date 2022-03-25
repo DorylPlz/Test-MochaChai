@@ -3,17 +3,6 @@ var assert = chai.assert;
 var expect = chai.expect;
 var main = require('../main');
 
-//Se requiere igualmente modificar el archivo package.json, Dentro de los scripts agregar test en caso de no existir, y que este contenga:
-// "./node_modules/.bin/mocha --reporter spec"
-/* 
-Ej:
-  "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
-  },
-*/
-//Una vez agregado eso, se podrá ejecutar un test solo lanzando npm test en la consola del proyecto
-
-
 /* 
 describe permite agrupar un conjunto de pruebas que tengan algo en comun
 it valida la prueba que hace algo especifico
@@ -43,6 +32,3 @@ describe('Test expect function: ', function(){
     })
 })
 //ambas hacen exactamente lo mismo, solo modifica la manera de codearlo, se recomiendan las ultimas 2 por que son mas descriptivas
-
-//Existen multiples funciones para crear un resultado esperado, tales como to, be, been, is, tha, which, etc, se pueden ver mas a fondo en
-// https://www.chaijs.com/api/bdd/
