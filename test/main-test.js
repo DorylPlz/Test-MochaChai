@@ -11,6 +11,8 @@ Ej:
     "test": "./node_modules/.bin/mocha --reporter spec"
   },
 */
+//Una vez agregado eso, se podrá ejecutar un test solo lanzando npm test en la consola del proyecto
+
 
 /* 
 describe permite agrupar un conjunto de pruebas que tengan algo en comun
